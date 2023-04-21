@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    /* background: linear-gradient(to right, #7979ce 10%, #ce73ce 95%); */
+    background-image: linear-gradient(to right, #37566e 10%, #517fa4 100%);
+    
+   
+}
+#maintable{
+    width:30%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:8%;
+    background-color: #3a4452;
+    height: 530px;
+    border-radius: 15px;
+    box-shadow: inset aliceblue 2px 5px 15px;
+    padding: 0 1%;
+}
+.head {
+    width: 100%;
+    text-align: center;
+    
+ 
+}
+.input{
+    width: 100%;
+    height: 100px;
+}
+#tbl{
+    width:100%;
+   
+}
+#tbl td{
+    width: 25%;
+   
+}
+#tbl td button{
+   width:85%;
+   height: 55px;
+   margin:5px;
+   background: transparent;
+   border: 0;
+   font-size: x-large;
+   box-shadow: inset whitesmoke 2px 3px 8px ;
+
+}
+#textbox{
+    text-align: right;
+    font-size: xx-large;
+    background: transparent;
+    margin-top: 7%;
+}

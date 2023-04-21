@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <table id="maintable">
+    <tr class="head">
+        <!-- <td><h1>Simple calculator</h1></td> -->
+    </tr>
+    <tr>
+       <td> <input id="textbox" class="input" type="text" readonly="true"></td>
+    </tr>
+    <tr>
+        <td>
+        <table id="tbl" >
+            <tr>
+                <td><button onclick="clr()"> C </button></td>
+                <td ><button onclick="bc()"><i class="fa-solid fa-delete-left"></i> </button></td>
+                <td ><button onclick="clk(this)"> % </button></td>
+                <td ><button onclick="clk(this)"> / </button></td>
+
+            </tr>
+            <tr>
+                <td ><button onclick="clk(this)"> 7 </button></td>
+                <td ><button onclick="clk(this)">8</button></td>
+                <td ><button onclick="clk(this)"> 9 </button></td>
+                <td ><button onclick="clk(this)"> * </button></td>
+
+            </tr>
+            <tr>
+                <td ><button onclick="clk(this)"> 4 </button></td>
+                <td ><button onclick="clk(this)">5</button></td>
+                <td ><button onclick="clk(this)"> 6 </button></td>
+                <td ><button onclick="clk(this)"> - </button></td>
+
+            </tr>
+            <tr>
+                <td ><button onclick="clk(this)"> 1 </button></td>
+                <td ><button onclick="clk(this)">2</button></td>
+                <td ><button onclick="clk(this)"> 3 </button></td>
+                <td ><button onclick="clk(this)"> +</button></td>
+
+            </tr>
+            <tr>
+                <td ><button onclick="clk(this)">  .</button></td>
+                <td ><button onclick="clk(this)">0</button></td>
+                <td ><button onclick="clk(this)">00</button></td>
+                <td ><button onclick="equal()"> = </button></td>
+
+            </tr>
+        </table>
+    </td>
+    </tr>
+   </table>
+
+   <script src="calculator.js"></script>
+</body>
+</html>
